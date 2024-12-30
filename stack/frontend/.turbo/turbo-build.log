@@ -1,0 +1,44 @@
+
+> voto-taku-frontend@0.0.1 build
+> astro build
+
+17:36:20 [vite] Forced re-optimization of dependencies
+17:36:30 [content] Syncing content
+17:36:30 [content] Synced content
+17:36:30 [types] Generated 10.59s
+17:36:30 [build] output: "static"
+17:36:30 [build] directory: C:\Users\Tomi\Documents\Programacion\Node\voto-taku-monorepo\stack\frontend\dist\
+17:36:30 [build] Collecting build info...
+17:36:30 [build] ✓ Completed in 10.73s.
+17:36:30 [build] Building static entrypoints...
+17:36:35 [vite] [32m✓ built in 5.04s[39m
+17:36:35 [build] ✓ Completed in 5.13s.
+
+ building client (vite) 
+17:36:35 [vite] transforming...
+17:36:36 [vite] [32m✓[39m 108 modules transformed.
+17:36:36 [vite] rendering chunks...
+17:36:37 [vite] computing gzip size...
+17:36:37 [vite] [2mdist/[22m[36m_astro/page.6O5L1Dsz.js                                               [39m[1m[2m 0.04 kB[22m[1m[22m[2m │ gzip: 0.06 kB[22m
+17:36:37 [vite] [2mdist/[22m[36m_astro/index.Csa51SR_.js                                              [39m[1m[2m 2.22 kB[22m[1m[22m[2m │ gzip: 1.00 kB[22m
+17:36:37 [vite] [2mdist/[22m[36m_astro/ToggleMute.DJUnLrmI.js                                         [39m[1m[2m 4.21 kB[22m[1m[22m[2m │ gzip: 2.08 kB[22m
+17:36:37 [vite] [2mdist/[22m[36m_astro/client.svelte.ClCfTdoj.js                                      [39m[1m[2m 4.47 kB[22m[1m[22m[2m │ gzip: 2.10 kB[22m
+17:36:37 [vite] [2mdist/[22m[36m_astro/ClientRouter.astro_astro_type_script_index_0_lang.L8xEW1Zs.js  [39m[1m[2m12.13 kB[22m[1m[22m[2m │ gzip: 4.16 kB[22m
+17:36:37 [vite] [2mdist/[22m[36m_astro/template.TDZ9XzxB.js                                           [39m[1m[2m13.34 kB[22m[1m[22m[2m │ gzip: 5.41 kB[22m
+17:36:37 [vite] [32m✓ built in 1.24s[39m
+
+ generating static routes 
+17:36:37 ▶ src/pages/404.astro
+17:36:37   └─ /404.html (+19ms)
+17:36:37 ▶ src/pages/endings/index.astro
+17:36:37   └─ /endings/index.html (+10ms)
+17:36:37 ▶ src/pages/login/index.astro
+17:36:37   └─ /login/index.html (+40ms)
+17:36:37 ▶ src/pages/openings/index.astro
+17:36:37   └─ /openings/index.html (+39ms)
+17:36:37 ▶ src/pages/index.astro
+17:36:37   └─ /index.html (+61ms)
+17:36:37 ✓ Completed in 278ms.
+
+17:36:37 [build] 5 page(s) built in 17.62s
+17:36:37 [build] Complete!
