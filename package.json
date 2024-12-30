@@ -1,0 +1,24 @@
+{
+  "name": "voto-taku-monorepo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "turbo dev",
+    "build": "turbo build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "description": "",
+  "workspaces": [
+    "stack/*"
+  ],
+  "devDependencies": {
+    "turbo": "^2.3.3"
+  },
+  "packageManager": "npm@11.0.0",
+  "dependencies": {
+    "backend": "^0.0.1"
+  }
+}
