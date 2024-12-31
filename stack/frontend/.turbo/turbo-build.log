@@ -2,42 +2,42 @@
 > voto-taku-frontend@0.0.1 build
 > astro build
 
-20:09:36 [content] Syncing content
-20:09:36 [content] Synced content
-20:09:36 [types] Generated 125ms
-20:09:36 [build] output: "static"
-20:09:36 [build] directory: C:\Users\Tomi\Documents\Programacion\Node\voto-taku-monorepo\stack\frontend\dist\
-20:09:36 [build] Collecting build info...
-20:09:36 [build] ✓ Completed in 254ms.
-20:09:36 [build] Building static entrypoints...
-20:09:39 [vite] [32m✓ built in 2.60s[39m
-20:09:39 [build] ✓ Completed in 2.72s.
+20:38:00 [content] Syncing content
+20:38:00 [content] Synced content
+20:38:00 [types] Generated 210ms
+20:38:00 [build] output: "static"
+20:38:00 [build] directory: C:\Users\Tomi\Documents\Programacion\Node\voto-taku-monorepo\stack\frontend\dist\
+20:38:00 [build] Collecting build info...
+20:38:00 [build] ✓ Completed in 478ms.
+20:38:00 [build] Building static entrypoints...
+20:38:04 [vite] [32m✓ built in 3.83s[39m
+20:38:04 [build] ✓ Completed in 3.96s.
 
  building client (vite) 
-20:09:39 [vite] transforming...
-20:09:40 [vite] [32m✓[39m 108 modules transformed.
-20:09:40 [vite] rendering chunks...
-20:09:40 [vite] computing gzip size...
-20:09:40 [vite] [2mdist/[22m[36m_astro/page.6O5L1Dsz.js                                               [39m[1m[2m 0.04 kB[22m[1m[22m[2m │ gzip: 0.06 kB[22m
-20:09:40 [vite] [2mdist/[22m[36m_astro/index.Csa51SR_.js                                              [39m[1m[2m 2.22 kB[22m[1m[22m[2m │ gzip: 1.00 kB[22m
-20:09:40 [vite] [2mdist/[22m[36m_astro/ToggleMute.DJUnLrmI.js                                         [39m[1m[2m 4.21 kB[22m[1m[22m[2m │ gzip: 2.08 kB[22m
-20:09:40 [vite] [2mdist/[22m[36m_astro/client.svelte.ClCfTdoj.js                                      [39m[1m[2m 4.47 kB[22m[1m[22m[2m │ gzip: 2.10 kB[22m
-20:09:40 [vite] [2mdist/[22m[36m_astro/ClientRouter.astro_astro_type_script_index_0_lang.L8xEW1Zs.js  [39m[1m[2m12.13 kB[22m[1m[22m[2m │ gzip: 4.16 kB[22m
-20:09:40 [vite] [2mdist/[22m[36m_astro/template.TDZ9XzxB.js                                           [39m[1m[2m13.34 kB[22m[1m[22m[2m │ gzip: 5.41 kB[22m
-20:09:40 [vite] [32m✓ built in 747ms[39m
+20:38:04 [vite] transforming...
+20:38:05 [vite] [32m✓[39m 108 modules transformed.
+20:38:05 [vite] rendering chunks...
+20:38:05 [vite] computing gzip size...
+20:38:05 [vite] [2mdist/[22m[36m_astro/page.6O5L1Dsz.js                                               [39m[1m[2m 0.04 kB[22m[1m[22m[2m │ gzip: 0.06 kB[22m
+20:38:05 [vite] [2mdist/[22m[36m_astro/index.Csa51SR_.js                                              [39m[1m[2m 2.22 kB[22m[1m[22m[2m │ gzip: 1.00 kB[22m
+20:38:05 [vite] [2mdist/[22m[36m_astro/ToggleMute.DJUnLrmI.js                                         [39m[1m[2m 4.21 kB[22m[1m[22m[2m │ gzip: 2.08 kB[22m
+20:38:05 [vite] [2mdist/[22m[36m_astro/client.svelte.ClCfTdoj.js                                      [39m[1m[2m 4.47 kB[22m[1m[22m[2m │ gzip: 2.10 kB[22m
+20:38:05 [vite] [2mdist/[22m[36m_astro/ClientRouter.astro_astro_type_script_index_0_lang.L8xEW1Zs.js  [39m[1m[2m12.13 kB[22m[1m[22m[2m │ gzip: 4.16 kB[22m
+20:38:05 [vite] [2mdist/[22m[36m_astro/template.TDZ9XzxB.js                                           [39m[1m[2m13.34 kB[22m[1m[22m[2m │ gzip: 5.41 kB[22m
+20:38:05 [vite] [32m✓ built in 1.03s[39m
 
  generating static routes 
-20:09:40 ▶ src/pages/404.astro
-20:09:40   └─ /404.html (+35ms)
-20:09:40 ▶ src/pages/endings/index.astro
-20:09:40   └─ /endings/index.html (+7ms)
-20:09:40 ▶ src/pages/login/index.astro
-20:09:40   └─ /login/index.html (+7ms)
-20:09:40 ▶ src/pages/openings/index.astro
-20:09:40   └─ /openings/index.html (+23ms)
-20:09:40 ▶ src/pages/index.astro
-20:09:40   └─ /index.html (+80ms)
-20:09:40 ✓ Completed in 208ms.
+20:38:06 ▶ src/pages/404.astro
+20:38:06   └─ /404.html (+36ms)
+20:38:06 ▶ src/pages/endings/index.astro
+20:38:06   └─ /endings/index.html (+26ms)
+20:38:06 ▶ src/pages/login/index.astro
+20:38:06   └─ /login/index.html (+5ms)
+20:38:06 ▶ src/pages/openings/index.astro
+20:38:06   └─ /openings/index.html (+5ms)
+20:38:06 ▶ src/pages/index.astro
+20:38:06   └─ /index.html (+80ms)
+20:38:06 ✓ Completed in 249ms.
 
-20:09:40 [build] 5 page(s) built in 4.10s
-20:09:40 [build] Complete!
+20:38:06 [build] 5 page(s) built in 5.91s
+20:38:06 [build] Complete!
