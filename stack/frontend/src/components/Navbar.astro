@@ -1,19 +1,64 @@
 ---
-import logo from "../../public/logo5_40x40.webp"
+import logo from "../../public/logo5_40x40.webp";
 ---
 
-<nav class="fixed top-0 w-full bg-accent-dark/50 backdrop-blur-md z-50 ">
-  <div class="max-w-7xl mx-auto px-4 py-4">
-    <div class="flex flex-row md:flex-row justify-between items-center gap-4">
-      <a href="/" class="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-accent via-accent-light to-white" >
-        <img src={logo.src} class="h-10 w-10" alt="">
+<nav class="fixed top-0 w-full bg-accent-dark/80 backdrop-blur-md z-50 shadow-lg">
+  <div class="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
+
+    <a href="/" class="flex items-center gap-2">
+      <img src={logo.src} class="h-10 w-10" alt="Logo Voto-Taku">
+      <h1 class="text-xl md:text-2xl font-bold text-transparent text-violet-200">
+        Voto-Taku
+      </h1>
+    </a>
+
+
+    <div class="hidden md:flex items-center gap-8">
+      <a href="/openings" class="text-white text-sm md:text-base hover:text-accent-light transition-colors">
+        Openings
       </a>
-      <div class="flex flex-wrap justify-center gap-4 items-center">
-        <a href="/openings" class="text-white hover:text-accent-light transition-colors">Openings</a>
-        <a href="/endings" class="text-white hover:text-accent-light transition-colors">Endings</a>
-        <a href="/login" class="px-4 py-2 rounded-lg bg-accent text-white hover:bg-violet-500 transition-colors">Iniciar Sesión</a>
-      </div>
+      <a href="/endings" class="text-white text-sm md:text-base hover:text-accent-light transition-colors">
+        Endings
+      </a>
+      <a href="/login" class="px-4 py-2 rounded-lg  bg-accent text-white text-sm md:text-base hover:bg-violet-500 transition-colors">
+        Iniciar Sesión
+      </a>
+    </div>
+
+
+    <button
+      id="menu-toggle"
+      class="block md:hidden p-2 text-white hover:text-accent-light transition-colors"
+      aria-label="Abrir menú"
+    >
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16m-7 6h7" />
+      </svg>
+    </button>
+
+
+    <div id="mobile-menu" class="hidden absolute top-full right-4 w-48 bg-accent-dark rounded-lg shadow-lg backdrop-blur-md md:hidden">
+      <a href="/openings" class="block px-4 py-2 text-white hover:bg-accent-light/20 transition-colors">
+        Openings
+      </a>
+      <a href="/endings" class="block px-4 py-2 text-white hover:bg-accent-light/20 transition-colors">
+        Endings
+      </a>
+      <a href="/login" class="block px-4 py-2  rounded-b-lg bg-accent text-white hover:bg-violet-500 transition-colors">
+        Iniciar Sesión
+      </a>
     </div>
   </div>
   <div class="h-0.5 w-full bg-gradient-to-r from-accent via-accent-light to-accent"></div>
 </nav>
+
+<style>
+  * {
+    font-family: Monospace, sans-serif;
+  }
+
+  #menu-toggle:focus + #mobile-menu,
+  #menu-toggle:active + #mobile-menu {
+    display: block;
+  }
+</style>

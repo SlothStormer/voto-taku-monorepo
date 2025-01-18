@@ -1,9 +1,15 @@
+*{
+  font-family: Monospace, sans-serif;
+}
+
 .slider-container {
   position: relative;
   overflow: hidden;
   height: 80%;
 }
-
+#play-on-hover-card{
+  background-image: url ('')
+}
 #slider {
   display: flex;
   flex-direction: column;
