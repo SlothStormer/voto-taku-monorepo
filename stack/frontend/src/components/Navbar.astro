@@ -1,64 +1,37 @@
 ---
+import { Image } from 'astro:assets';
 import logo from "../../public/logo5_40x40.webp";
 ---
 
-<nav class="fixed top-0 w-full bg-accent-dark/80 backdrop-blur-md z-50 shadow-lg">
-  <div class="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
-
-    <a href="/" class="flex items-center gap-2">
-      <img src={logo.src} class="h-10 w-10" alt="Logo Voto-Taku">
-      <h1 class="text-xl md:text-2xl font-bold text-transparent text-violet-200">
-        Voto-Taku
-      </h1>
-    </a>
-
-
-    <div class="hidden md:flex items-center gap-8">
-      <a href="/openings" class="text-white text-sm md:text-base hover:text-accent-light transition-colors">
-        Openings
-      </a>
-      <a href="/endings" class="text-white text-sm md:text-base hover:text-accent-light transition-colors">
-        Endings
-      </a>
-      <a href="/login" class="px-4 py-2 rounded-lg  bg-accent text-white text-sm md:text-base hover:bg-violet-500 transition-colors">
-        Iniciar Sesión
-      </a>
+<nav class="bg-[#280d30] px-4 py-2 flex items-center justify-between">
+  <div class="flex items-center gap-4 text-white">
+    <div class="size-10">
+      <Image src={logo || "/placeholder.svg"} alt="VotoTaku Logo" width={40} height={40} />
     </div>
-
-
-    <button
-      id="menu-toggle"
-      class="block md:hidden p-2 text-white hover:text-accent-light transition-colors"
-      aria-label="Abrir menú"
-    >
-      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
-        <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16m-7 6h7" />
-      </svg>
-    </button>
-
-
-    <div id="mobile-menu" class="hidden absolute top-full right-4 w-48 bg-accent-dark rounded-lg shadow-lg backdrop-blur-md md:hidden">
-      <a href="/openings" class="block px-4 py-2 text-white hover:bg-accent-light/20 transition-colors">
-        Openings
-      </a>
-      <a href="/endings" class="block px-4 py-2 text-white hover:bg-accent-light/20 transition-colors">
-        Endings
-      </a>
-      <a href="/login" class="block px-4 py-2  rounded-b-lg bg-accent text-white hover:bg-violet-500 transition-colors">
-        Iniciar Sesión
-      </a>
+    <h2 class="text-white text-lg font-bold leading-tight tracking-[-0.015em]">VotoTaku</h2>
+  </div>
+  
+  <div class="flex items-center gap-8">
+    <div class="hidden md:flex items-center gap-9">
+      <a class="text-white text-sm font-medium leading-normal hover:text-[#c77edd] transition-colors" href="#">Openings</a>
+      <a class="text-white text-sm font-medium leading-normal hover:text-[#c77edd] transition-colors" href="#">Endings</a>
+    </div>
+    <div class="flex gap-2">
+      <button
+        class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-[#760299] text-white text-sm font-bold leading-normal tracking-[0.015em] hover:bg-[#8f02b9] transition-colors"
+      >
+        <span class="truncate">Iniciar Sesión</span>
+      </button>
+      <button
+        class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 bg-[#4d195d] text-white gap-2 text-sm font-bold leading-normal tracking-[0.015em] min-w-0 px-2.5 hover:bg-[#5d1f70] transition-colors"
+        aria-label="Perfil de usuario"
+      >
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 256 256" aria-hidden="true">
+          <path
+            d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24ZM74.08,197.5a64,64,0,0,1,107.84,0,87.83,87.83,0,0,1-107.84,0ZM96,120a32,32,0,1,1,32,32A32,32,0,0,1,96,120Zm97.76,66.41a79.66,79.66,0,0,0-36.06-28.75,48,48,0,1,0-59.4,0,79.66,79.66,0,0,0-36.06,28.75,88,88,0,1,1,131.52,0Z"
+          ></path>
+        </svg>
+      </button>
     </div>
   </div>
-  <div class="h-0.5 w-full bg-gradient-to-r from-accent via-accent-light to-accent"></div>
 </nav>
-
-<style>
-  * {
-    font-family: Monospace, sans-serif;
-  }
-
-  #menu-toggle:focus + #mobile-menu,
-  #menu-toggle:active + #mobile-menu {
-    display: block;
-  }
-</style>

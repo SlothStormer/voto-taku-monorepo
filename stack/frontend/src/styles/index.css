@@ -1,6 +1,39 @@
-*{
-  font-family: Monospace, sans-serif;
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('https://fonts.gstatic.com/s/notosans/v27/o-0IIpQlx3QUlC5A4PNjgfk_vArhqVIZ0nv9qGm8.ttf') format('truetype');
 }
+
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('https://fonts.gstatic.com/s/notosans/v27/o-0IIpQlx3QUlC5A4PNjgefwvArhqVIZ0nv9qGm8.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('https://fonts.gstatic.com/s/plusjakartasans/v6/pxiByp8kv8JHgFVrJJfedwpa920QFgZ8bMmu.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('https://fonts.gstatic.com/s/plusjakartasans/v6/pxiByp8kv8JHgFVrJJfedwpa920oFwZ8bMmu.ttf') format('truetype');
+}
+
+body {
+  font-family: 'Noto Sans', 'Plus Jakarta Sans', sans-serif;
+}
+
 
 .slider-container {
   position: relative;
