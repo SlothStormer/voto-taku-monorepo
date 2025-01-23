@@ -17,6 +17,12 @@ const { title } = Astro.props;
 		<link rel="icon" type="image/svg+xml" href="/favicon.png" />
 		<meta name="generator" content={Astro.generator} />
 		<title>{title} | Voto-Taku</title>
+		<link
+		rel="stylesheet"
+		as="style"
+		onload="this.rel='stylesheet'"
+		href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Plus+Jakarta+Sans%3Awght%40400%3B500%3B700%3B800"
+	  	/>
 		<ClientRouter />
 	</head>
 	<body class="max-h-screen">

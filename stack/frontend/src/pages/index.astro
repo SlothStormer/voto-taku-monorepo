@@ -22,36 +22,20 @@ const cards = [
 ---
 
 <Layout title="Inicio">
-  <head>
-   
-    <link
-      rel="stylesheet"
-      as="style"
-      onload="this.rel='stylesheet'"
-      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Plus+Jakarta+Sans%3Awght%40400%3B500%3B700%3B800"
-    />
-
-
-
-   
-  </head>
   <div
     class="relative flex min-h-screen flex-col bg-[#280d30] overflow-x-hidden"
   >
     <div class="flex flex-col flex-grow">
-      <header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#4d195d] px-10 py-3">
-        <!-- Header content -->
-      </header>
       <main class="flex-grow px-4 sm:px-10 md:px-20 lg:px-40 py-5">
         <div class="max-w-[960px] mx-auto">
           <div class="@container">
             <div class="@[480px]:px-4 @[480px]:py-3">
               <div
-                class="relative flex flex-col justify-end overflow-hidden bg-[#280d30] @[480px]:rounded-lg min-h-80"
+                class="relative flex flex-col justify-end overflow-hidden bg-[#280d30] @[480px]:rounded-lg min-h-80 aspect-video"
               >
                 <VideoBG />
-                <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent"></div>
-                <div class="relative z-10 p-4">
+                <div class="absolute "></div>
+                <div class="absolute z-10 p-4 inset-0 bg-gradient-to-t from-black via-transparent to-transparent">
                   <h1 class="text-white text-[28px] font-bold leading-tight">Bienvenido a VotoTaku</h1>
                 </div>
               </div>
@@ -124,6 +108,7 @@ const cards = [
     </div>
   </div>
 </Layout>
+
 <style>
   @import "../styles/index.css";
-  </style>
+</style>

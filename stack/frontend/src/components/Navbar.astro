@@ -3,7 +3,7 @@ import { Image } from 'astro:assets';
 import logo from "../../public/logo5_40x40.webp";
 ---
 
-<nav class="bg-[#280d30] px-4 py-2 flex items-center justify-between">
+<nav class="bg-[#280d30] px-4 py-2 flex items-center justify-between border-b border-solid border-b-[#4d195d]">
   <div class="flex items-center gap-4 text-white">
     <div class="size-10">
       <Image src={logo || "/placeholder.svg"} alt="VotoTaku Logo" width={40} height={40} />
@@ -11,10 +11,10 @@ import logo from "../../public/logo5_40x40.webp";
     <h2 class="text-white text-lg font-bold leading-tight tracking-[-0.015em]">VotoTaku</h2>
   </div>
   
-  <div class="flex items-center gap-8">
+  <div class="flex items-center gap-8 ">
     <div class="hidden md:flex items-center gap-9">
-      <a class="text-white text-sm font-medium leading-normal hover:text-[#c77edd] transition-colors" href="#">Openings</a>
-      <a class="text-white text-sm font-medium leading-normal hover:text-[#c77edd] transition-colors" href="#">Endings</a>
+      <a class="text-white text-sm font-medium leading-normal hover:text-[#c77edd] transition-colors" href="/openings">Openings</a>
+      <a class="text-white text-sm font-medium leading-normal hover:text-[#c77edd] transition-colors" href="/endings">Endings</a>
     </div>
     <div class="flex gap-2">
       <button
